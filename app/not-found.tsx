@@ -1,10 +1,11 @@
-import Navigation from "../components/navigation";
+import { Metadata } from "next"
 
+export const metadata: Metadata = {
+    title: 'Not Found',
+}
 export default function NotFount() {
-
     return (
         <div>
-            <Navigation />
             <h1>NOT FOUND !</h1>
         </div>
 
